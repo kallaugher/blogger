@@ -1,11 +1,16 @@
-$primary_color: #AAA;
+$primary_color: white;
 
 body {
   background-color: $primary_color;
   font: {
-    family: Verdana, Helvetica, Arial;
+    family: Lora, Helvetica, Arial;
     size: 14px;
   }
+  padding-bottom: 10px;
+}
+
+html {
+  background-color: #0086b3;
 }
 
 a {
@@ -13,6 +18,11 @@ a {
   img {
     border: none;
   }
+}
+
+h1 {
+  color: white;
+  font-family: 'Satisfy', serif
 }
 
 .clear {
@@ -33,4 +43,9 @@ a {
 #content {
   clear: both;
   padding-top: 20px;
+}
+
+p {
+  padding-top: 5px;
+  white-space: pre-line;
 }
